@@ -1,0 +1,775 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ja' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProject/3dShooting
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55744
+Successfully changed project path to: D:/UnityProject/3dShooting
+D:/UnityProject/3dShooting
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21676] Host "[IP] 192.168.68.118 [Port] 0 [Flags] 2 [Guid] 3661479553 [EditorId] 3661479553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F3E8SVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21676] Host "[IP] 192.168.68.118 [Port] 0 [Flags] 2 [Guid] 3661479553 [EditorId] 3661479553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F3E8SVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 14.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/3dShooting/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012968 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 9.10 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1245ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (69.1 KB). Loaded Objects now: 3031.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 7.255200 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.168900 ms MarkObjects: 6.717200 ms  DeleteObjects: 0.140400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1647432.088044 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(c4c85ba8796b9c04b8b83db9ce2570a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(c4c85ba8796b9c04b8b83db9ce2570a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b53ea05280feae956b071eb0b9af84c7') in 0.083574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Material/Plane01.mat
+  artifactKey: Guid(53331afd716213b4ca89047bee1ea5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Material/Plane01.mat using Guid(53331afd716213b4ca89047bee1ea5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c05d71261b7dd5686e17ff7443e4b9dd') in 0.057873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/fbx/Enemy03.mat
+  artifactKey: Guid(6f99842bc05eecb49bbeb8be0d3a8a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy03.mat using Guid(6f99842bc05eecb49bbeb8be0d3a8a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c722e7ee4bc22d81e2d2547e3b91c89') in 0.016317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/fbx/Enemy01.png
+  artifactKey: Guid(c516b7bf950a3a6459edbcccfa5dc432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy01.png using Guid(c516b7bf950a3a6459edbcccfa5dc432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea1d23aca63687dec8e6b248fec17644') in 0.049122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefubs/Effect/EffectHit01.prefab
+  artifactKey: Guid(34cb9ab6415595543b0cd4e9c5a9b01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Effect/EffectHit01.prefab using Guid(34cb9ab6415595543b0cd4e9c5a9b01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23f816b0259f4e9fe2f9f8a6b4b66578') in 0.096321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefubs/Effect/Smoke.prefab
+  artifactKey: Guid(36097e52a392658468c2655dcb1b87e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Effect/Smoke.prefab using Guid(36097e52a392658468c2655dcb1b87e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4313b1996b7d982f842bcc1e1ceb481e') in 0.051616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/fbx/Enemy04.png
+  artifactKey: Guid(56cbf866bc6b8484ba431054e172195d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy04.png using Guid(56cbf866bc6b8484ba431054e172195d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a216212991240ae4d3ba1288536ee4a5') in 0.022488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefubs/Effect/EffectLifeUp.prefab
+  artifactKey: Guid(659c3b2a117782e498d00e7076a6f430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Effect/EffectLifeUp.prefab using Guid(659c3b2a117782e498d00e7076a6f430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c0ae86018d7dc175cd001d8940bd69') in 0.066205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/fbx/Enemy07.png
+  artifactKey: Guid(7584c0884c336414f9e496800cf6007f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy07.png using Guid(7584c0884c336414f9e496800cf6007f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15413d8a373c17682425308bb700e5b2') in 0.037974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefubs/Boss/BossHead.prefab
+  artifactKey: Guid(8be7129b5ac7bdf46bfa4b411f33916c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Boss/BossHead.prefab using Guid(8be7129b5ac7bdf46bfa4b411f33916c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2160a82946b2538a5123e21cde858f56') in 0.036111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Script/StageScrool.cs
+  artifactKey: Guid(6ba424d0e1f8c7c4189e67e7aef97da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/StageScrool.cs using Guid(6ba424d0e1f8c7c4189e67e7aef97da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eb4b462177923a49a022c6fb2451872') in 0.005428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/Wizard.mat
+  artifactKey: Guid(5119cbd587c1857469a0e5979de69271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Wizard.mat using Guid(5119cbd587c1857469a0e5979de69271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b19331b54e056dea1b3e997a6cf18936') in 0.008749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture/LifeIcon2.png
+  artifactKey: Guid(a071c1ef3228ccd49a1cd9d536a93f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture/LifeIcon2.png using Guid(a071c1ef3228ccd49a1cd9d536a93f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8cb8aa54a427290c47ce68cc838afa2') in 0.047056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Material/Effect/PlayerDestroy.mat
+  artifactKey: Guid(910109d075bc3f942a1245c8c0cad038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Material/Effect/PlayerDestroy.mat using Guid(910109d075bc3f942a1245c8c0cad038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fa71bce191178e37bcc6945f0387dde') in 0.100987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefubs/Enemy/Enemy07.prefab
+  artifactKey: Guid(0708e711170850140b7f1d796c313fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Enemy/Enemy07.prefab using Guid(0708e711170850140b7f1d796c313fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dec208417c64c3e18a486c81cc39cc52') in 0.017172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Script/Enemy/Enemy04.cs
+  artifactKey: Guid(e59dbfc75fe83794a8fe1d9a3006b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Enemy04.cs using Guid(e59dbfc75fe83794a8fe1d9a3006b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c80a1633a1230291fb52bc5609e6a9bd') in 0.022391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Script/Enemy/Enemy07.cs
+  artifactKey: Guid(b1e6c8a749b36a3478c49abdaefaf972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Enemy07.cs using Guid(b1e6c8a749b36a3478c49abdaefaf972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '309efabd031fba11473c2079ec9343d5') in 0.004553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Script/Enemy/EnemyBullet02.cs
+  artifactKey: Guid(35bdc04abc1ba374193dd14c62787065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/EnemyBullet02.cs using Guid(35bdc04abc1ba374193dd14c62787065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c362df59d845974d621d452e5f59bcf') in 0.004613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/fbx/trap.png
+  artifactKey: Guid(14c42384cbf89044c9fab5c96455a7d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/trap.png using Guid(14c42384cbf89044c9fab5c96455a7d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5924a73c6a8869115a8d5bb0804b596c') in 0.020243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/fbx/Lifeup.fbx
+  artifactKey: Guid(4aa2530eb1f2e054d85ac505a12d33a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Lifeup.fbx using Guid(4aa2530eb1f2e054d85ac505a12d33a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24ee2e1754de25861284840789310649') in 0.054351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Script/Title/TitleGroundLoop.cs
+  artifactKey: Guid(4933b599b21ffb54dbc07d565ebc8628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Title/TitleGroundLoop.cs using Guid(4933b599b21ffb54dbc07d565ebc8628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3321f93901dc5c63213a903bc04b40c') in 0.032786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefubs/Enemy/Enemy06.prefab
+  artifactKey: Guid(6834e97a9f4938240b4832ae88192385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Enemy/Enemy06.prefab using Guid(6834e97a9f4938240b4832ae88192385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07798ef1231dc0108aad1cca832933fd') in 0.034394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/fbx/EnemyBullet.png
+  artifactKey: Guid(81782b496f03f4741963e369eea554ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/EnemyBullet.png using Guid(81782b496f03f4741963e369eea554ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f2d4583050fc175a18a6f5ad21de1ea') in 0.023382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/fbx/EnemyBullet.fbx
+  artifactKey: Guid(0463be994b61f7c4aabbf1838f5cb27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/EnemyBullet.fbx using Guid(0463be994b61f7c4aabbf1838f5cb27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad1c0f5e274df72093e88eca9d7af64e') in 0.023545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Script/Item/ItemMesh.cs
+  artifactKey: Guid(4f0602a54f901d64fb80961ff7aed7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Item/ItemMesh.cs using Guid(4f0602a54f901d64fb80961ff7aed7cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd61a601e4373bb7b525640f6f7424717') in 0.004497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefubs/Item/ItemLifeUp.prefab
+  artifactKey: Guid(3400577cd92679241a171e2d116a0768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Item/ItemLifeUp.prefab using Guid(3400577cd92679241a171e2d116a0768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a37cc82bb39f17fb4baa958d49dc1a1') in 0.010579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/fbx/Enemy04.mat
+  artifactKey: Guid(18212d9941bb29343b11b52c48cc1694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy04.mat using Guid(18212d9941bb29343b11b52c48cc1694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df377b832aab95e4ea3d580ea566ed9e') in 0.006742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/fbx/trap.mat
+  artifactKey: Guid(4e2627bbd56b913489f44c8893ed5a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/trap.mat using Guid(4e2627bbd56b913489f44c8893ed5a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdc95aeaa15be4310df61c2d182589d6') in 0.006736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/fbx/EnemyBullet02.mat
+  artifactKey: Guid(3857d957bfd7e0247b6438a038ea3563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/EnemyBullet02.mat using Guid(3857d957bfd7e0247b6438a038ea3563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46bd8d46c071d9e5261188a4ed9e1a74') in 0.011637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Script/Enemy/EnemyBullet01.cs
+  artifactKey: Guid(f6e88f1f69ab0844c8ef52d7519f6043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/EnemyBullet01.cs using Guid(f6e88f1f69ab0844c8ef52d7519f6043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea1477604843f33903627a15f3d5a081') in 0.023853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefubs/Boss/Boss.prefab
+  artifactKey: Guid(d5227633207413b468c5191842f90513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Boss/Boss.prefab using Guid(d5227633207413b468c5191842f90513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0f60c3c05b7fb75f3766ca63587e5e5') in 0.020597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/Enemy03.png
+  artifactKey: Guid(3b0e42e0203010b4491141b48c7e4640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy03.png using Guid(3b0e42e0203010b4491141b48c7e4640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9731ef3e86406b613ca45c664af6fa11') in 0.020044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Script/Enemy/Enemy08.cs
+  artifactKey: Guid(46bd2687f96c6de4c9d422d10656453d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Enemy08.cs using Guid(46bd2687f96c6de4c9d422d10656453d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b564c28630200623962e911dbcf691ad') in 0.003303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/fbx/Broom.mat
+  artifactKey: Guid(2efac56f85a208c45a770ab72cd65d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Broom.mat using Guid(2efac56f85a208c45a770ab72cd65d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77cce03e0ffdd33612a1f96296632291') in 0.005636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Script/Enemy/Enemy03Mesh.cs
+  artifactKey: Guid(fd05c1c5d2c3cd24990255c5b4dda9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Enemy03Mesh.cs using Guid(fd05c1c5d2c3cd24990255c5b4dda9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f645772486ed78dfe2de62ded1e781e2') in 0.025056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/fbx/Enemy05.png
+  artifactKey: Guid(d6bdcc91d77f7ed498c2ae243e8817ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy05.png using Guid(d6bdcc91d77f7ed498c2ae243e8817ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fa4ccf12ca1b1451ab357e0ad6e64e0') in 0.035451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Script/Title/TitleOperation.cs
+  artifactKey: Guid(8de2c8595c8920c47b5f9f7ad41453ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Title/TitleOperation.cs using Guid(8de2c8595c8920c47b5f9f7ad41453ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31e3ecd52f21a54ffc91e25298dcba0a') in 0.003557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefubs/GroundBossEnterStage.prefab
+  artifactKey: Guid(f3cd1bfd05a76a043bc5903e7452969a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/GroundBossEnterStage.prefab using Guid(f3cd1bfd05a76a043bc5903e7452969a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66f0b59a447f599f92f1fade6fbbe64e') in 0.010011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefubs/trap/trap.prefab
+  artifactKey: Guid(29ad5fa2cc1ed5b4ab34a1b8512c76f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/trap/trap.prefab using Guid(29ad5fa2cc1ed5b4ab34a1b8512c76f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4cc9450582ec4a9df89f356f2439659') in 0.052795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Script/Enemy/Enemy04Mesh.cs
+  artifactKey: Guid(7434f627e96ab5043b2d1e414c8b3ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Enemy04Mesh.cs using Guid(7434f627e96ab5043b2d1e414c8b3ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa3653d228af17b712a0cae7911a2c1c') in 0.026722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/fbx/Enemy01.mat
+  artifactKey: Guid(3b519e19d6810584c94e44e7ef80ef57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy01.mat using Guid(3b519e19d6810584c94e44e7ef80ef57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51189f1602de3e85a91ae5243a078b22') in 0.006139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Script/StageScrollCount.cs
+  artifactKey: Guid(3bbef94d363c76e4aa5c106b3f8f6f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/StageScrollCount.cs using Guid(3bbef94d363c76e4aa5c106b3f8f6f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bc6b4d0c9d594218607264ae2dfd46a') in 0.004775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/fbx/Enemy06.mat
+  artifactKey: Guid(9f08a5e4bf8a23b439ea52452083cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy06.mat using Guid(9f08a5e4bf8a23b439ea52452083cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24e43c9b2181f16b5ea74769c345e92b') in 0.044355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefubs/Enemy/Enemy01.prefab
+  artifactKey: Guid(2cfee5c10b3cc9844a2f20720bbb5232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefubs/Enemy/Enemy01.prefab using Guid(2cfee5c10b3cc9844a2f20720bbb5232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4027e172735c3c500995a470fe839019') in 0.020242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/fbx/Enemy04.fbx
+  artifactKey: Guid(248d13b8ae0ab574583fe5351b1c70a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/Enemy04.fbx using Guid(248d13b8ae0ab574583fe5351b1c70a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4da41ddce32449ae2963b4ead152d2f') in 0.039683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Script/Player/PlayerWizardMesh.cs
+  artifactKey: Guid(4684f30134813114d844361d36f3bd2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Player/PlayerWizardMesh.cs using Guid(4684f30134813114d844361d36f3bd2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14182e6b638442c45ec88be44a7f35c8') in 0.026627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/fbx/EnemyBullet02.fbx
+  artifactKey: Guid(e04a437da7760134ca528b4eca011001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/fbx/EnemyBullet02.fbx using Guid(e04a437da7760134ca528b4eca011001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c226964cfff45e3faf1953edbfe22aa') in 0.012771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.004122 seconds.
+  path: Assets/Script/ui/Pause.cs
+  artifactKey: Guid(d1430c3f71edcf74daa103467aa0d15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/ui/Pause.cs using Guid(d1430c3f71edcf74daa103467aa0d15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f6914db07fafd6b22766eb1cea669a5') in 0.004265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sound/SE/LifeUp.wav
+  artifactKey: Guid(2408cec9b1b74da4092ab8cda85eb315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/SE/LifeUp.wav using Guid(2408cec9b1b74da4092ab8cda85eb315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81d015f881491959f3f6b3b15b9118bb') in 0.087388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sound/SE/BulletHit00.wav
+  artifactKey: Guid(2758135b715b3e7439456575dd67210e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/SE/BulletHit00.wav using Guid(2758135b715b3e7439456575dd67210e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84df3f66ef6ab7a96bdc59229aa7f791') in 0.032361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sound/SE/NewAudioMixer.mixer
+  artifactKey: Guid(9950ebb20528af042aa6d06a60fd3a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/SE/NewAudioMixer.mixer using Guid(9950ebb20528af042aa6d06a60fd3a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Refreshing native plugins compatible for Editor in 12.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17cf5859793e292b5b337a26581b9ffc') in 0.062588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Script/Enemy/Boss/BossAppear.cs
+  artifactKey: Guid(af90186f0f568dc4fb635697d3a14a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Boss/BossAppear.cs using Guid(af90186f0f568dc4fb635697d3a14a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc2e887e59bebc9992aa37997d43bb30') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Script/Enemy/Boss/BossParts.cs
+  artifactKey: Guid(8043cd3fb59093045928812b013c7faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Boss/BossParts.cs using Guid(8043cd3fb59093045928812b013c7faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '178ad47925846ce9f1bf2e40e3294e9c') in 0.028332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Script/ui/StageClear.cs
+  artifactKey: Guid(5406e65539175714e82e3c3cf5ca1677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/ui/StageClear.cs using Guid(5406e65539175714e82e3c3cf5ca1677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3751a2df53927c0254aa738c80502480') in 0.006374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Script/Enemy/Boss/BossShoot.cs
+  artifactKey: Guid(854dca139ef15214398d5612b288684e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Boss/BossShoot.cs using Guid(854dca139ef15214398d5612b288684e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4415745222aa5f817034feea0d09e7a') in 0.004123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Script/Enemy/Boss/BossPartsHit.cs
+  artifactKey: Guid(8cecbff1d09322e4184094db8467b69b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Boss/BossPartsHit.cs using Guid(8cecbff1d09322e4184094db8467b69b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23238196ca8c1c9ce4982daa5c52f186') in 0.025488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Script/Enemy/Boss/BossDamage.cs
+  artifactKey: Guid(c162be00b93fc93448a12ff0382d9d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Enemy/Boss/BossDamage.cs using Guid(c162be00b93fc93448a12ff0382d9d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8476facc1ea80f6236bd6519e3b32e2c') in 0.004426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sound/SE/PlayerBullet00.wav
+  artifactKey: Guid(bd86bdc854821e74e9f43322e7d784c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/SE/PlayerBullet00.wav using Guid(bd86bdc854821e74e9f43322e7d784c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d15d57bddea7e0b393558b650f52328') in 0.030267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 9.50 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.053 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (433ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 10.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.1 KB). Loaded Objects now: 3037.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 6.325800 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.174600 ms MarkObjects: 5.843000 ms  DeleteObjects: 0.066000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
