@@ -10,3 +10,6 @@ Unityプロジェクト(2022.3.16f1)
 |左移動       |A	　←キー	            |方向キー左  |
 |下降         |W　↓キー	            |方向キー上  |
 |攻撃         |左Ctrl  右Ctrl        | ボタン0  |
+
+
+![3dshooting](https://github.com/user-attachments/assets/da1fd336-7248-4b56-b2fb-4e161b94a800)
